@@ -13,7 +13,7 @@ const APP_CONFIG = {
 
   // ── ICÔNE ────────────────────────────────────────────────
   // Place ton icône dans /assets/ et indique le nom du fichier
-  iconFile: "assets/icon.jpg",   // ex: "assets/icon.png"
+  iconFile: "assets/icon.png",   // ex: "assets/icon.png"
 
   // ── LIENS STORES ─────────────────────────────────────────
   appStoreUrl:  "https://apps.apple.com/us/app/id6777791103",
