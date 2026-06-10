@@ -5,19 +5,19 @@
 const APP_CONFIG = {
 
   // ── INFOS GÉNÉRALES ──────────────────────────────────────
-  appName:      "AppName",
-  tagline:      "Your App Tagline Here",
-  description:  "A short description of what your app does and the main value it brings to users. Keep it simple and clear.",
+  appName:      "Magic AI Video",
+  tagline:      "AI Your Face",
+  description:  "Create viral AI photos and videos in seconds with FaceBot. Generate cinematic selfies, AI videos, headshots, age predictions, styles, and more.",
   year:         "2026",
-  contactEmail: "contact@yourapp.com",
+  contactEmail: "contact@dhastudio.xyz",
 
   // ── ICÔNE ────────────────────────────────────────────────
   // Place ton icône dans /assets/ et indique le nom du fichier
-  iconFile: "assets/icon.png",   // ex: "assets/icon.png"
+  iconFile: "assets/icon.jpg",   // ex: "assets/icon.png"
 
   // ── LIENS STORES ─────────────────────────────────────────
-  appStoreUrl:  "https://apps.apple.com/YOUR_LINK",
-  playStoreUrl: "https://play.google.com/store/apps/YOUR_LINK",
+  appStoreUrl:  "https://apps.apple.com/us/app/id6777791103",
+  playStoreUrl: "https://play.google.com/store/apps/details?id=video.ai.generator",
 
   // ── COULEURS ─────────────────────────────────────────────
   colors: {
@@ -29,38 +29,38 @@ const APP_CONFIG = {
 
   // ── FEATURES ─────────────────────────────────────────────
   // Tu peux en ajouter ou en supprimer (max recommandé : 6)
-  features: [
-    {
-      icon:  "⚡",
-      title: "Feature One",
-      desc:  "Describe the first key feature of your app. What problem does it solve?"
-    },
-    {
-      icon:  "🎯",
-      title: "Feature Two",
-      desc:  "Describe the second key feature of your app. Focus on the benefit, not the technical detail."
-    },
-    {
-      icon:  "🔒",
-      title: "Feature Three",
-      desc:  "Describe the third key feature of your app. Keep it concise and user-friendly."
-    },
-    {
-      icon:  "📊",
-      title: "Feature Four",
-      desc:  "Describe the fourth key feature of your app. What makes your app stand out?"
-    },
-    {
-      icon:  "🌍",
-      title: "Feature Five",
-      desc:  "Describe the fifth key feature of your app. Think about what your users will love most."
-    },
-    {
-      icon:  "💬",
-      title: "Feature Six",
-      desc:  "Describe the sixth key feature of your app. You can remove cards or add more as needed."
-    },
-  ],
+features: [
+  {
+    icon: "🎬",
+    title: "AI Videos",
+    desc: "Turn your selfies into cinematic AI videos with viral-ready animations and effects."
+  },
+  {
+    icon: "✨",
+    title: "AI Selfie Styles",
+    desc: "Transform your photos into stunning AI styles inspired by movies, anime, fantasy, and more."
+  },
+  {
+    icon: "🧠",
+    title: "Smart AI Tools",
+    desc: "Analyze age, beauty score, emotions, and enhance your photos instantly with AI."
+  },
+  {
+    icon: "🪄",
+    title: "Background Removal",
+    desc: "Remove and replace backgrounds in seconds with clean AI-powered cutouts."
+  },
+  {
+    icon: "📸",
+    title: "HD Enhancer",
+    desc: "Upscale blurry or low-quality images into sharp high-definition portraits."
+  },
+  {
+    icon: "🚀",
+    title: "Create Viral Content",
+    desc: "Generate eye-catching AI photos and videos designed for TikTok, Reels, and Shorts."
+  },
+],
 
   // ── SCREENSHOTS ──────────────────────────────────────────
   // Place tes screenshots dans /screenshots/ et liste les noms ici
@@ -71,6 +71,7 @@ const APP_CONFIG = {
     "screenshots/screen3.png",
     "screenshots/screen4.png",
     "screenshots/screen5.png",
+    "screenshots/screen6.png",
   ],
 
   // ── BADGE HERO ───────────────────────────────────────────
@@ -78,21 +79,21 @@ const APP_CONFIG = {
   heroBadge: "✦ Available on iOS & Android",
 
   // ── SECTIONS TITRES ──────────────────────────────────────
-  sections: {
-    features: {
-      label:    "Features",
-      title:    "Everything you need",
-      subtitle: "Describe your app's core value proposition here in one or two sentences.",
-    },
-    screenshots: {
-      label:    "Screenshots",
-      title:    "See it in action",
-      subtitle: "Replace these placeholders with real screenshots of your app.",
-    },
-    download: {
-      title:    "Download AppName today",
-      subtitle: "Available for free on iOS and Android. No credit card required.",
-    },
+sections: {
+  features: {
+    label: "Features",
+    title: "Powerful AI creations",
+    subtitle: "Create viral AI photos, cinematic videos, and stunning selfie transformations in seconds.",
   },
+  screenshots: {
+    label: "Screenshots",
+    title: "See Magic AI in action",
+    subtitle: "Explore AI-generated selfies, videos, effects, and powerful editing tools directly inside the app.",
+  },
+  download: {
+    title: "Download Magic AI today",
+    subtitle: "Create stunning AI photos and videos on iOS and Android.",
+  },
+},
 
 };
